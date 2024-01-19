@@ -1,0 +1,17 @@
+drn_arr_communicationCenterMarkers = [];
+drn_arr_communicationCenterMarkers set [0, [[2764.92,3814.48,0], -420.674]];
+drn_arr_communicationCenterMarkers set [1, [[2118.25,2166.88,0], 37.4613]];
+drn_arr_communicationCenterMarkers set [2, [[1372.1,2659.59,0], 19.7532]];
+drn_arr_communicationCenterMarkers set [3, [[896.781,3288.32,0], 174.36]];
+drn_arr_communicationCenterMarkers set [4, [[257.02,2180.94,0], 140.809]];
+drn_arr_communicationCenterMarkers set [5, [[977.162,1750.78,0], 5.03956]];
+drn_arr_communicationCenterMarkers set [6, [[1235.72,931.528,0], 0.216238]];
+drn_arr_communicationCenterMarkers set [7, [[2544.26,669.718,0], -160.252]];
+drn_arr_communicationCenterMarkers set [8, [[3605.88,701.357,0], -166.419]];
+drn_arr_communicationCenterMarkers set [9, [[4681.11,1247.49,0], -139.271]];
+drn_arr_communicationCenterMarkers set [10, [[4019.17,1582.89,0], -217.758]];
+drn_arr_communicationCenterMarkers set [11, [[3297.24,2018.79,0], -187.299]];
+drn_arr_communicationCenterMarkers set [12, [[4205.65,2390.44,0], -268.551]];
+drn_arr_communicationCenterMarkers set [13, [[4508.31,2837.76,0], -436.039]];
+drn_arr_communicationCenterMarkers set [14, [[3980.41,3593.49,0], -437.26]];
+drn_arr_communicationCenterMarkers set [15, [[2255.22,3179.62,0], -576.064]];

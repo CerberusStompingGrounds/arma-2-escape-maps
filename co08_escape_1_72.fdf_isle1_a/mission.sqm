@@ -1,0 +1,707 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"chernarus",
+		"ca_modules_functions",
+		"ca_modules_silvie",
+		"ca_modules_animals",
+		"CA_Modules_Alice",
+		"cacharacters_e",
+		"fdf_isle1_a"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"ca_modules_functions",
+		"cacharacters_e",
+		"ca_modules_silvie",
+		"ca_modules_animals",
+		"CA_Modules_Alice",
+		"fdf_isle1_a"
+	};
+	randomSeed=1261270;
+	class Intel
+	{
+		briefingName="co08 Escape Podagorsk [1.72]";
+		briefingDescription="Caught in enemy territory trying to escape!";
+		resistanceEast=1;
+		startWeather=0.2605564;
+		startFog=0.12567772;
+		forecastWeather=0.3805666;
+		forecastFog=0.1205344;
+		year=2012;
+		month=7;
+		day=3;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=9;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=8;
+				class Item0
+				{
+					position[]={8601.9102,5.0005341,4299.0176};
+					azimut=76.821701;
+					id=0;
+					side="WEST";
+					vehicle="FR_Commander";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="CAPTAIN";
+					skill=0.60000002;
+					text="p1";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+				class Item1
+				{
+					position[]={8598.3555,5.0005341,4291.9707};
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="FR_Cooper";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="p4";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+				class Item2
+				{
+					position[]={8594.7578,5.0005341,4296.1816};
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="USMC_SoldierS_Engineer";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="p2";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+				class Item3
+				{
+					position[]={8595.8184,5.0005341,4292.3008};
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="FR_Miles";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="p3";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+				class Item4
+				{
+					position[]={8601.3672,5.0005341,4291.7988};
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="FR_OHara";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="p5";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+				class Item5
+				{
+					position[]={8603.8711,5.0005341,4291.9492};
+					special="NONE";
+					id=10;
+					side="WEST";
+					vehicle="FR_Rodriguez";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="p6";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+				class Item6
+				{
+					position[]={8606.5313,5.0005341,4291.875};
+					special="NONE";
+					id=11;
+					side="WEST";
+					vehicle="FR_Sykes";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.59000003;
+					text="p7";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+				class Item7
+				{
+					position[]={8610.0254,5.0005341,4291.4199};
+					special="NONE";
+					id=12;
+					side="WEST";
+					vehicle="FR_AC";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="p8";
+					init="this setCaptive true;this setVariable [""drn_var_initializing"", true];this addeventhandler [""killed"",{ if ((_this select 1) in (call drn_fnc_Escape_GetPlayers) && (_this select 1) != (_this select 0)) then {[(_this select 1), -9] call drn_fnc_CL_AddScore;}; }];";
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14176.241,0.27592182,14320.382};
+					id=1;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12576.195,23.314526,19265.143};
+					azimut=155;
+					id=2;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="drn_rifleman";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7864.6455,5.0005341,4229.856};
+					type="CYCLE";
+					combatMode="RED";
+					speed="LIMITED";
+					combat="STEALTH";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14579.343,0.26123244,14323.216};
+					id=3;
+					side="LOGIC";
+					vehicle="SilvieManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					init="this setvariable [""vehicleCount"",""round ((sqrt %1)) / 1""];this setvariable [""vehicleInit"",{_this setFuel (random 1)}];";
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={15345.2,0.13187119,14331.795};
+					azimut=234.60201;
+					id=5;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="""drn_communicationCenterSmall"" setMarkerAlpha 0;""drn_communicationCenterMarkerLarge"" setMarkerAlpha 0;""drn_communicationCenterSmall2"" setMarkerAlpha 0;""drn_communicationCenterMarkerLarge2"" setMarkerAlpha 0;""drn_communicationCenterSmall3"" setMarkerAlpha 0;""drn_communicationCenterMarkerLarge3"" setMarkerAlpha 0;""drn_communicationCenterMarker1"" setMarkerAlpha 0;""drn_communicationCenterMarker2"" setMarkerAlpha 0;""drn_communicationCenterMarker3"" setMarkerAlpha 0;";
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={15709.901,0.32142466,14340.035};
+					id=8;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="server";
+				};
+			};
+		};
+		class Item6
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13722.063,0.083384067,14319.478};
+					id=13;
+					side="LOGIC";
+					vehicle="BIS_animals_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item7
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13285.677,0.42423964,14351.408};
+					id=14;
+					side="LOGIC";
+					vehicle="AliceManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					init="this setVariable [""ALICE_civilianinit"",[{_this removeWeapon ""ItemMap"";_this addeventhandler [""killed"",{if (side (_this select 1) == west) then {drn_var_Escape_SearchLeader_civilianReporting = true;publicVariable ""drn_var_Escape_SearchLeader_civilianReporting"";(_this select 1) addScore -4;[name (_this select 1) + "" has killed a civilian.""] call drn_fnc_CL_ShowCommandTextAllClients;}}]}]];";
+				};
+			};
+		};
+		class Item8
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10832.165,10.801403,6904.4038};
+					id=15;
+					side="CIV";
+					vehicle="Damsel2";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=36;
+		class Item0
+		{
+			position[]={8168.9126,5.0005341,4408.2764};
+			name="drn_searchChopperStartPosMarker";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={5109.5088,14.922041,20391.674};
+			name="Respawn_west";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={15211.192,15.513594,20431.273};
+			name="Respawn_east";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={7101.7134,23.75724,18081.885};
+			name="Boot_Hill";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={10800.492,37.226276,9555.3242};
+			name="center";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={8190.7241,5.0005341,4378.3301};
+			name="drn_dropChopperStartPosMarker";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={8742.6689,5.0005341,4289.6426};
+			name="drn_insurgentAirfieldMarker";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={8466.1035,5.0005341,4589.2988};
+			name="drn_russianSearchChopperStartPosMarker";
+			type="Empty";
+		};
+		class Item8
+		{
+			position[]={7215.2676,0.20689428,12884.667};
+			name="drn_Escape_ExtracionBoatSpawnPos1";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={7923.5718,0.058935866,11462.702};
+			name="drn_Escape_ExtractionPos1";
+			type="Empty";
+		};
+		class Item10
+		{
+			position[]={5936.5156,0.064548157,6836.605};
+			name="drn_Escape_ExtracionBoatSpawnPos2";
+			type="Empty";
+		};
+		class Item11
+		{
+			position[]={7831.4238,0.11806294,7512.6201};
+			name="drn_Escape_ExtractionPos2";
+			type="Empty";
+		};
+		class Item12
+		{
+			position[]={8564.2842,0.10514639,1978.5815};
+			name="drn_Escape_ExtracionBoatSpawnPos3";
+			type="Empty";
+		};
+		class Item13
+		{
+			position[]={8484.5898,0.31643292,3774.8435};
+			name="drn_Escape_ExtractionPos3";
+			type="Empty";
+		};
+		class Item14
+		{
+			position[]={12725.94,0.05043605,3346.0906};
+			name="drn_Escape_ExtracionBoatSpawnPos4";
+			type="Empty";
+		};
+		class Item15
+		{
+			position[]={11973.751,0.32863057,5327.4448};
+			name="drn_Escape_ExtractionPos4";
+			type="Empty";
+		};
+		class Item16
+		{
+			position[]={18160.926,0.28156927,5830.2778};
+			name="drn_Escape_ExtracionBoatSpawnPos5";
+			type="Empty";
+		};
+		class Item17
+		{
+			position[]={16239.588,0.22700763,6071.9087};
+			name="drn_Escape_ExtractionPos5";
+			type="Empty";
+		};
+		class Item18
+		{
+			position[]={15227.25,0.35909694,8045.2002};
+			name="drn_Escape_ExtractionPos6";
+			type="Empty";
+		};
+		class Item19
+		{
+			position[]={17035.541,0.22656931,8691.0479};
+			name="drn_Escape_ExtracionBoatSpawnPos6";
+			type="Empty";
+		};
+		class Item20
+		{
+			position[]={12511.989,0.36359495,11195.925};
+			name="drn_Escape_ExtractionPos7";
+			type="Empty";
+		};
+		class Item21
+		{
+			position[]={14848.149,0.35871243,11791.223};
+			name="drn_Escape_ExtracionBoatSpawnPos7";
+			type="Empty";
+		};
+		class Item22
+		{
+			position[]={12222.367,0.27970538,14917.05};
+			name="drn_Escape_ExtractionPos8";
+			type="Empty";
+		};
+		class Item23
+		{
+			position[]={14637.618,0.31708491,15044.459};
+			name="drn_Escape_ExtracionBoatSpawnPos8";
+			type="Empty";
+		};
+		class Item24
+		{
+			position[]={8385.8154,0.36519355,3772.9368};
+			name="drn_Escape_ExtractionPos3_1";
+			type="Empty";
+		};
+		class Item25
+		{
+			position[]={7987.1655,0.31149229,11473.855};
+			name="drn_Escape_ExtractionPos1_1";
+			type="Empty";
+		};
+		class Item26
+		{
+			position[]={7806.147,0.17131802,7566.1318};
+			name="drn_Escape_ExtractionPos2_1";
+			type="Empty";
+		};
+		class Item27
+		{
+			position[]={11995.287,-0.015752137,5334.2192};
+			name="drn_Escape_ExtractionPos4_1";
+			type="Empty";
+		};
+		class Item28
+		{
+			position[]={16253.07,0.15702519,6103.0171};
+			name="drn_Escape_ExtractionPos5_1";
+			type="Empty";
+		};
+		class Item29
+		{
+			position[]={15216.472,-0.065197602,8076.457};
+			name="drn_Escape_ExtractionPos6_1";
+			type="Empty";
+		};
+		class Item30
+		{
+			position[]={12500.755,0.016967386,11240.42};
+			name="drn_Escape_ExtractionPos7_1";
+			type="Empty";
+		};
+		class Item31
+		{
+			position[]={12215.698,0.013744429,14969.573};
+			name="drn_Escape_ExtractionPos8_1";
+			type="Empty";
+		};
+		class Item32
+		{
+			position[]={7685.895,5.0172033,4224.4131};
+			name="TrafficMarker_SouthWest";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item33
+		{
+			position[]={7448.4873,55.577477,11149.275};
+			name="TrafficMarker_NorthWest";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item34
+		{
+			position[]={12188.912,15.440865,10458.38};
+			name="TrafficMarker_NorthEast";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item35
+		{
+			position[]={14879.189,4.4352603,6098.7734};
+			name="TrafficMarker_SouthEast";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+	};
+	class Sensors
+	{
+		items=6;
+		class Item0
+		{
+			position[]={13207.874,0.28999853,13829.088};
+			a=0;
+			b=0;
+			timeoutMin=3;
+			timeoutMid=3;
+			timeoutMax=3;
+			interruptable=1;
+			type="END2";
+			age="UNKNOWN";
+			expCond="drn_var_Escape_MissionComplete";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={12690.952,0.4180218,13640.44};
+			a=0;
+			b=0;
+			rectangular=1;
+			age="UNKNOWN";
+			expCond="isServer && isMultiplayer && drn_escapeHasStarted && ({(_x getVariable ""NORRN_unconscious"")} count playableUnits == count playableUnits)";
+			expActiv="call drn_fnc_Escape_SetMissionCompleteTasks;drn_var_Escape_AllPlayersDead = true;publicVariable ""drn_var_Escape_AllPlayersDead"";";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={12865.019,0.22489417,13633.16};
+			a=0;
+			b=0;
+			timeoutMin=1;
+			timeoutMid=1;
+			timeoutMax=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="drn_var_Escape_AllPlayersDead || drn_var_Escape_MissionComplete";
+			expActiv="1 cutText ["""", ""BLACK FADED""];";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={13199.847,0.18312004,13646.039};
+			a=0;
+			b=0;
+			timeoutMin=3;
+			timeoutMid=3;
+			timeoutMax=3;
+			interruptable=1;
+			type="END3";
+			age="UNKNOWN";
+			expCond="drn_var_Escape_AllPlayersDead";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={13025.991,0.1823985,13613.844};
+			a=0;
+			b=0;
+			timeoutMin=2;
+			timeoutMid=2;
+			timeoutMax=2;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="drn_var_Escape_AllPlayersDead || drn_var_Escape_MissionComplete";
+			expActiv="setDate [date select 0, date select 1, date select 2, (date select 3) - drn_var_Escape_hoursSkipped, date select 4];";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={8686.207,5.0005341,4280.5981};
+			activationBy="ALPHA";
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="player addweapon ""itemmap"";";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"chernarus",
+		"fdf_isle1_a"
+	};
+	addOnsAuto[]=
+	{
+		"fdf_isle1_a"
+	};
+	randomSeed=2542017;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"chernarus",
+		"fdf_isle1_a"
+	};
+	addOnsAuto[]=
+	{
+		"fdf_isle1_a"
+	};
+	randomSeed=11993212;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"chernarus",
+		"fdf_isle1_a"
+	};
+	addOnsAuto[]=
+	{
+		"fdf_isle1_a"
+	};
+	randomSeed=13922257;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
